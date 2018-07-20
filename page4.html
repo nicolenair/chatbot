@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title> Chatbot </title>
+		<link rel = stylesheet type = text/css href={{ url_for('static', filename='styles.css') }} = screen>
+	</head>
+	<body>
+	    <div id = “container”>
+	    <h1>Chatbot</h1>
+              {% autoescape false %}
+                 {{conversation}}
+              {% endautoescape %}
+	<form method="POST">
+		<br/>
+     		Chat with bot here: <input type="text" name="user_input"><br>
+               <br/>
+     		<input type="submit" value="Submit"><br>
+	</form>
+	</div id>
+	</body>
+</html>

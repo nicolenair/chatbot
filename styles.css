@@ -1,0 +1,16 @@
+body{
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family: "Lato","proxima-nova","Helvetica Neue";
+	font-size: 25px;
+}
+
+input[type=submit]{
+    font-family: "Lato","proxima-nova","Helvetica Neue";
+    font-size: 25px;
+    color: white;
+    background-color:red;
+    border-radius: 5px;
+    font-weight: bold;
+    }
