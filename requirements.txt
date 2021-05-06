@@ -59,7 +59,7 @@ faiss==0.1
 fastcache==1.0.2
 filelock==3.0.4
 Flask==1.0.2
-Flask-Cors==3.0.4
+Flask-Cors==3.0.9
 fnvhash==0.1.0
 gast==0.2.0
 gensim==3.5.0
